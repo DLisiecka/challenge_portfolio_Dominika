@@ -9,46 +9,48 @@ I would like to create a suitable portfolio to start a new career path. I hope, 
 Sooo...Welcome and follow my work. :point_down:
 ## Subtask 4
 ### Description
-As a talent scout you can use the 'Scouts Panel' application to track and add information about football players. There is a panel for managing players, matches and creating reports.
+As a talent scout you can use the 'Scouts Panel' application to track and add information about football players. There is also a panel for managing matches and creating reports.
 ### Functionality
 **1. Login window:**
 - login
 - password reminder
-- changing the application language (polish/english)
+- change the application language (Polish/English)
   
 **2. Main page:**
 - logout
-- adding a new Player
+- add a new Player
 - dev team contact
-- changing the application language (polish/english)
+- change the application language (Polish/English)
 
 **3. Players:**
-- sorting and filtering columns
-- downloading csv
-- printing the report about Players
+- sort and filter columns
+- download csv file
+- print the report about Players
 - selection of visible columns
 - search bar
-- editing information about the Player
+- edit information about the Player
 - reset filtering
 
 **4.Matches:**
-- adding a new Match
-- editing information about the Match
-- creating a report
+- add a new Match
+- edit information about the Match
+- create a report
 
 **5.Reports:**
 - adding a new Report
 - editing reports
 
 ### Interface evaluation
-The application interface is simple, but does not attract the user's attention. The advantage is the responsiveness of the website.
+The application interface is simple, but does not attract the user's attention. There are no standout elements. As for the home page, it has good performance and accessibility. Other tabs are not responsive.
 
 ### Intuitiveness
+The application is not entirely intuitive. You have to figure out the Player edit options - there should be an icon for this purpose.
+No redirection to the home page after clicking 'Scouts Panel' in the header. Possibility to download a .csv file and print a report only for the currently displayed list of Players. You can't do this for everyone or your chosen ones.
+After typing words in the search bar and clicking the magnifying glass icon nothing happened, only when you click 'enter' button.
 
 ### Is everything OK?
-I identified following bugs:
 * inability to create a new User
-* when you click 'remind password',then leave the field 'email' empty or enter an incorrect email format and click the 'send' button, the message 'message sent successfully' appears
-
-
-
+* click 'remind password',then leave the field 'email' empty or enter an incorrect email format and click the 'send' button, the message 'message sent successfully' appears,also when you provide the correct email address, the status code is 400
+* add a new Player and changing the language from English to Polish, the names of the 'Submit' and 'Clear' buttons remain in English. Change the language back to English and some labels remain in Polish ('Łączy Nas piłka', '90 minut'). The same thing happens when editing an existing Player. Submit' and 'Clear' buttons stay in English while adding a new Match
+* try to add a new report and be redirected to the 'Matches' tab
+* 
