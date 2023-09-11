@@ -12,14 +12,14 @@ Sooo...Welcome and follow my work. :point_down:
 As a talent scout you can use the 'Scouts Panel' application to track and add information about football players. There is also a panel for managing matches and creating reports.
 ### Functionality
 **1. Login window:**
-- login
+- login (password is hidden behind asteriks and you can't change its visibility)
 - password reminder
 - change the application language (Polish/English)
   
 **2. Main page:**
 - logout
 - add a new Player
-- dev team contact
+- dev team contact (redirect to slack)
 - change the application language (Polish/English)
 
 **3. Players:**
@@ -48,7 +48,7 @@ The application is not entirely intuitive. You have to figure out the Player edi
 No redirection to the home page after clicking 'Scouts Panel' in the header.
 After typing words in the search bar and clicking the magnifying glass icon nothing happened, only when you click 'enter' button.
 You cannot add a new player in a dedicated tab, only on the home page.
-Generally, contact information is provided in the footer of the page, but here it is in the same place as the information describing the application.
+Generally, contact information is provided in the footer of the page, but here it is in the same place as the information describing the application. 
 
 ### Is everything OK?
 * inability to create a new User
