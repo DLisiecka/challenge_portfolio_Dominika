@@ -59,4 +59,14 @@ Generally, contact information is provided in the footer of the page, but here i
 * the name and lastname field accepts numbers and special characters, for example you can type only '???' as name and lastname
 * possibility of adding date from the future during adding a new match, also negative number and unlimited time played
 
+# :pencil2: TASK 2
+## Subtask 1
+:point_right: [Check the document with Test cases](https://docs.google.com/spreadsheets/d/1JGg9uS7v3NDC_WYtkTtfBaefP9C-ARCKsDIYsF6J02U/edit?usp=drive_link)
+## Subtask 2
+## Subtask 3
+We write **test cases** to clearly document the various possibilities of handling modules within a given application. They gives us confidence during testing that we have not omitted any important functionality. Test cases are extremely important for many reasons: quality assurance, compliance verification, error identification, reporting, understanding software behavior.
+
+
+
+
   
