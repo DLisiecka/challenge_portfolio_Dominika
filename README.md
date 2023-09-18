@@ -61,12 +61,14 @@ Generally, contact information is provided in the footer of the page, but here i
 
 # :pencil2: TASK 2
 ## Subtask 1
-:point_right: [Check the document with test cases based on User Story](https://docs.google.com/spreadsheets/d/1JGg9uS7v3NDC_WYtkTtfBaefP9C-ARCKsDIYsF6J02U/edit?usp=drive_link)
+:point_right: [Check the document with test cases based on User Story ('Scouts Panel'app)](https://docs.google.com/spreadsheets/d/1JGg9uS7v3NDC_WYtkTtfBaefP9C-ARCKsDIYsF6J02U/edit?usp=drive_link)
 ## Subtask 2
-:point_right: [Check the document with test cases based on "own experience"]()
+:point_right: [Check the document with test cases based on "own experience" ('Scouts Panel'app)]()
 ## Subtask 3
 We write **test cases** to clearly document the various possibilities of handling modules within a given application. They gives us confidence during testing that we have not omitted any important functionality. Test cases are extremely important for many reasons: quality assurance, compliance verification, error identification, reporting, understanding software behavior.
 ## Subtask 4
+:point_right: [Check the document with test cases based on "own experience" ('Pick Eat Up'app)]()
+
 
 
 
