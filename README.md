@@ -69,6 +69,13 @@ We write **test cases** to clearly document the various possibilities of handlin
 ## Subtask 4
 :point_right: [Check the document with test cases based on "own experience" ('Pick Eat Up' app)](https://docs.google.com/spreadsheets/d/1yuKN49691dh2n0CElP1xA_3VRpGSM08heX2H4KZnGeg/edit?usp=drive_link)
 
+# :pencil2: TASK 3
+## Subtask 1
+:point_right: [Testing according to test plans and reporting errors](https://docs.google.com/spreadsheets/d/1C3jmhiCSO1VpqXf9C5msDXclF6IbzSzdcYXTnTI3o4I/edit?usp=drive_link)
+## Subtask 3
+:point_right: [Report on the tests performed] ()
+
+
 
 
 
