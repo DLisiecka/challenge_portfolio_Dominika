@@ -71,9 +71,29 @@ We write **test cases** to clearly document the various possibilities of handlin
 
 # :pencil2: TASK 3
 ## Subtask 1
-:point_right: [Testing according to test plans and reporting errors](https://docs.google.com/spreadsheets/d/1C3jmhiCSO1VpqXf9C5msDXclF6IbzSzdcYXTnTI3o4I/edit?usp=drive_link)
+:point_right: [Testing according to test plans and reporting bugs](https://docs.google.com/spreadsheets/d/1C3jmhiCSO1VpqXf9C5msDXclF6IbzSzdcYXTnTI3o4I/edit?usp=drive_link)
 ## Subtask 3
 :point_right: [Report on the tests performed](https://docs.google.com/spreadsheets/d/1K7V4aD6Hcr5pzeEQpC5QUHM0TUDcxbTzrjwI8xuf0ts/edit?usp=drive_link)
+
+# :pencil2: TASK 4
+## Subtask 2
+:point_right: [Exploratory testing and bug reporting](https://docs.google.com/spreadsheets/d/1dBrlJPVxzBJa_XVi8oyo8-tNqYBKvNSuIC3pp_DqJIc/edit?usp=drive_link)
+## Subtask 3
+### What is this application for? What is the purpose of this application?
+The application is a popular online advertising platform that is used to buy and sell various types of goods and services. The main purpose of the app is to allow users to post ads for items they want to sell or are looking for and connect with others who may be interested in those items.
+### How would you describe the end user of the application?
+The end user is a person who uses this application to buy or sell various products and services on the platform.Users are people with different needs and preferences.
+### Do you think the application is user friendly?
+Yes.Interface and functionalities are tailored to the needs of users.The application is easy to use, intuitive and with clear navigation.Appropriate labels, icons and buttons that clearly inform users about available functionalities.
+### How would you improve the app?
+I would definitely speed up app loading times, which means users can now access content and features faster. This greatly improves overall performance.
+### What differences do you see between testing a web application and a native application?
+Testing web and native applications differs in several important ways due to differences in the technology, platforms, and environments in which these applications operate.
+Native mobile apps have their own unique user interfaces that are more optimized for a specific platform. UI testing includes platform-specific elements such as gestures, scrolling, and special controls.The user interface of a web application is typically based on web technologies such as HTML, CSS, and JavaScript. UI testing takes place across browsers and devices, and browser responsiveness and compatibility are key.
+Web applications run in web browsers on various platforms.Native mobile apps are written specifically for specific mobile platforms, such as iOS (for Apple devices) or Android (for Android devices).
+
+
+
 
 
 
