@@ -91,6 +91,8 @@ I would definitely speed up app loading times, which means users can now access 
 Testing web and native applications differs in several important ways due to differences in the technology, platforms, and environments in which these applications operate.
 Native mobile apps have their own unique user interfaces that are more optimized for a specific platform. UI testing includes platform-specific elements such as gestures, scrolling, and special controls.The user interface of a web application is typically based on web technologies such as HTML, CSS, and JavaScript. UI testing takes place across browsers and devices, and browser responsiveness and compatibility are key.
 Web applications run in web browsers on various platforms.Native mobile apps are written specifically for specific mobile platforms, such as iOS (for Apple devices) or Android (for Android devices).
+## Subtask 3
+:point_right: [Mobile and web application tests (SwipeTo app). Link to JIRA.](https://olgagrzywa.atlassian.net/jira/software/projects/DCP/boards/3/backlog)
 
 
 
