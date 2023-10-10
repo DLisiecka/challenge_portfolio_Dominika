@@ -114,6 +114,16 @@ Web applications run in web browsers on various platforms.Native mobile apps are
 - MAX()
 - AVG()
 
+## Subtask 3
+1.Display the actors table in alphabetical order sorting by the surname column.
+```sql
+SELECT *
+FROM actors
+ORDER BY surname;
+```
+
+
+
 
 
 
