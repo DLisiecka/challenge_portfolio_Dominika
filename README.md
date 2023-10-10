@@ -121,6 +121,44 @@ SELECT *
 FROM actors
 ORDER BY surname;
 ```
+<img width="295" alt="1" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/efd91d0d-5fc8-4100-a7ae-bb23872c8fb1">
+
+2.View a video that was made in 2019.
+```sql
+SELECT *
+FROM movies
+WHERE year_of_production = 2019;
+```
+<img width="341" alt="2" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/aff6512c-9a14-47b8-894d-de9b18490df1">
+
+3.View all films made between 1900 and 1999.
+```sql
+SELECT *
+FROM movies
+WHERE year_of_production BETWEEN 1900 AND 1999;
+```
+<img width="496" alt="3" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/fa39a62a-c280-4ae6-a80b-84247be47aa3">
+
+4.ONLY display the title and price of movies that are under $7.
+```sql
+SELECT title,price 
+FROM movies 
+WHERE price < 7;
+```
+<img width="287" alt="4" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/be3c9d6a-38fc-4396-9ea3-e9f2ef9289a6">
+
+5.Use the logical AND operator to display actors with actor_id between 4-7 (4 and 7 should display). DO NOT USE the BETWEEN operator.
+```sql
+SELECT *
+FROM actors
+WHERE actor_id >= 4 AND actor_id <= 7;
+```
+<img width="290" alt="5" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/e644dce2-8964-46d4-807a-8e9fbec95223">
+
+
+
+
+
 
 
 
