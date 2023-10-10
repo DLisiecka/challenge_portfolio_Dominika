@@ -155,6 +155,48 @@ WHERE actor_id >= 4 AND actor_id <= 7;
 ```
 <img width="290" alt="5" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/e644dce2-8964-46d4-807a-8e9fbec95223">
 
+6.Display customers with id 2,4,6 using a logical condition.
+```sql
+SELECT *
+FROM customers
+WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6;
+```
+<img width="402" alt="6" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/9ad864f7-30ea-4e63-98fb-01c08bcf2ba5">
+
+7.Display clients with id 1,3,5 using the IN operator.
+```sql
+SELECT *
+FROM customers
+WHERE customer_id IN (1,3,5);
+```
+<img width="387" alt="7" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/57aa4f48-6878-407e-9355-747ce6459848">
+
+8.Display data for all people in the 'actors' table whose name starts with 'An'.
+```sql
+SELECT *
+FROM actors
+WHERE name LIKE 'An%';
+```
+<img width="250" alt="8" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/abc5184d-95a4-459e-bed5-69d7f9ff4104">
+
+9.View details of a customer who does not have an email address provided.
+```sql
+SELECT *
+FROM customers
+WHERE email IS NULL;
+```
+<img width="304" alt="9" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/b6da0cf9-c59b-44d2-b206-30647e62a213">
+
+10.View all movies priced above $9 and whose ID is between 2 and 8 movie_id.
+```sql
+SELECT *
+FROM movies
+WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+```
+<img width="382" alt="10" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/b96bb015-06ea-48fe-8919-0c3813ff6cf5">
+
+
+
 
 
 
