@@ -94,6 +94,27 @@ Web applications run in web browsers on various platforms.Native mobile apps are
 ## Subtask 3
 :point_right: [Mobile and web application tests (SwipeTo app). Link to JIRA.](https://olgagrzywa.atlassian.net/jira/software/projects/DCP/boards/3/backlog)
 
+# :pencil2: TASK 5
+## Subtask 1
+:mag: Queries and operators learned during the course:
+- SELECT
+- FROM
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY ASC/DESC
+- DISTINCT
+- BETWEEN
+- IN
+- LIKE
+- NOT
+- IS / IS NOT NULL
+- COUNT()
+- MIN()
+- MAX()
+- AVG()
+
+
 
 
 
