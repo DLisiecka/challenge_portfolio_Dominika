@@ -195,6 +195,37 @@ WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
 ```
 <img width="382" alt="10" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/b96bb015-06ea-48fe-8919-0c3813ff6cf5">
 
+# :pencil2: TASK 6
+## Subtask 1
+11.I made a mistake when entering Ania Miler's name - I typed Muler. Find and apply a function that will correct my error.
+```sql
+UPDATE customers
+SET surname = 'Miler'
+WHERE surname = 'Muler';
+```
+<img width="417" alt="11" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/52b6b349-3b7e-4193-a715-3ef2945857c6">
+
+12.I charged too much money from a customer who recently bought a movie with id 4. Use the join function to check the customer's name and email address. In order to write him a message about the mistake.
+```sql
+SELECT c.name, c.email
+FROM customers AS c 
+JOIN sale AS s 
+ON c.customer_id = s.customer_id 
+WHERE s.movie_id = 4;
+```
+<img width="207" alt="12" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/41d28749-00c2-4900-bf2f-8577a3da5526">
+
+13.You must have noticed that the seller forgot to enter Patrycja's customer's email address. Complete this blank by entering: pati@mail.com.
+```sql
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE customer_id = 4;
+```
+<img width="419" alt="13" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/c5db62f0-52c7-4528-9bab-e11847263e4e">
+
+
+
+
 
 
 
