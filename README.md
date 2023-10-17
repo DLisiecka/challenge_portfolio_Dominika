@@ -223,6 +223,83 @@ WHERE customer_id = 4;
 ```
 <img width="419" alt="13" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/c5db62f0-52c7-4528-9bab-e11847263e4e">
 
+14.For each purchase, display the name of the customer who made the rental and the title of the movie rented.
+```sql
+SELECT c.name, c.surname, m.title
+FROM movies AS m 
+JOIN sale AS s 
+ON m.movie_id = s.movie_id 
+JOIN customers AS c 
+ON c.customer_id = s.customer_id;
+```
+<img width="409" alt="14" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/9e1ba861-b7e2-4b4e-8406-35fa6a9b93c9">
+
+15.To anonymize your data, you want to create pseudonyms for your customers. - Add a column called 'nickname' to the customer table, - Fill in the column in such a way that the nickname is created from the first two letters of the name and the last letter of the surname. E.g. Natalie Pilling → Nag.
+```sql
+ALTER TABLE customers
+ADD pseudonym char(3);
+```
+```sql
+UPDATE customers
+SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname, 1));
+```
+<img width="478" alt="15" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/8c132f43-88fd-4b3c-867a-4f467f0592d5">
+
+16.Display the titles of the films that have been purchased, display the table in such a way that the titles are not repeated.
+```sql
+SELECT DISTINCT m.title
+FROM sale AS s 
+JOIN movies AS m 
+ON s.movie_id = m.movie_id
+```
+<img width="242" alt="16" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/c87974f1-af3c-46c8-90a5-c83f8209fb5b">
+
+17.Display a common list of the names of all actors and clients and arrange the result alphabetically.
+```sql
+SELECT name FROM customers
+UNION
+SELECT name FROM actors
+ORDER by name ASC;
+```
+<img width="108" alt="17" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/d94fe82e-66bd-435a-b5b2-77daa021504e">
+
+18.Poland is gripped by inflation and our video store is also affected by this problem. Increase the price of all films produced after 2000 by $2.50.
+```sql
+UPDATE movies
+SET price = price + 2.5
+WHERE year_of_production > 2000;
+```
+<img width="496" alt="18" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/cccc4198-e6c1-4be5-bcf7-b8d95039fccc">
+
+19.Display the name of the actor with id 4 and the title of the movie he starred in.
+```sql
+SELECT a.name,a.surname,m.title
+FROM actors AS a 
+JOIN cast AS c 
+ON a.actor_id = c.actor_id
+JOIN movies AS m 
+ON m.movie_id = c.movie_id
+WHERE a.actor_id = 4;
+```
+<img width="262" alt="19" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/d6dc700f-e3bd-4a8e-87bd-40f5028f29e1">
+
+20.Add a new tuple to the customers table, where customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com and nickname = Hoa.
+```sql
+INSERT INTO customers (customer_id, email, name, pseudonym, surname)
+VALUES ('7', 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
+```
+<img width="544" alt="20" src="https://github.com/DLisiecka/challenge_portfolio_Dominika/assets/26362737/0642574c-fba2-4ea6-bf67-3de7117b3cb5">
+
+## Subtask 2
+Test ECRU - ISTQB 14/15
+
+
+
+
+
+
+
+
 
 
 
