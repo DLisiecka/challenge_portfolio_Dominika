@@ -293,6 +293,9 @@ VALUES ('7', 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
 ## Subtask 2
 Test ECRU - ISTQB 14/15
 
+## Subtask 3
+[:point_right: My Portfolio](https://github.com/DLisiecka/Manual-Tester-Portfolio)
+
 
 
 
